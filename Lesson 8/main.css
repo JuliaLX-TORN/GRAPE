@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+   width: 100%;
+   background: #000;
+   position: fixed;
+   z-index: 100;
+}
+.inner {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav ul li {
+   color: #fff;
+   list-style: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 15px;
+}
+.logo {
+    width: 103px;
+    height: 20px;
+    background: url('logo.png');
+    display: inline-block;
+}
+.section {
+    width: 100%;
+    height: 100vh;
+}
+#one {
+    background: rgb(17, 17, 17);
+}
+#two {
+    background: #fff;
+}
+/* главный тел z-index 1 2 3 или4 */
+.present {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+    display: flex;
+}
+.text {
+    width: 50%;
+    color: white;
+}
+.text h1 {
+    font-size: 4.5rem;
+}
+.text p {
+    font-size: 2.2rem;
+}
+button {
+    width: 200px;
+    height: 60px;
+    border: 1px;
+    color: rgb( 225, 225, 225);
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    background: crimson;
+    padding: 16px 45px;
+    margin: 0px 20px 0px 0px;
+}
+.phone {
+   width: 40%;
+   height: 400px;
+   position: relative;
+}
+.alpha {
+    width: 250px;
+    height: 490px;
+    position: absolute;
+    left: 380px;
+    z-index: 1;
+    
+}
+.beta {
+    width: 249px;
+    height: 490px;
+    position: absolute;
+    left: 270px;
+}
+.int {
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+.instrument {
+    width: 200px;
+    height: 260px;
+    border: 1px solid white;
+    margin-left: 50px;
+    text-align: center;
+}
+.instrument:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+.key {
+    font-size: 300%;
+    color: red;
+}
+.polosa {
+    font-size: 300%;
+    color: red;
+}
+.sun {
+    font-size: 300%;
+    color: red;
+}
+.Features {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.awesome {
+    width: 100%;
+    height: 500px;
+    border: 1px solid white;
+    margin-left: 50px;
+    text-align: center;
+}
+.b {
+    font-size: 40px;
+}
+.minus {
+    width: 100px;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+}
+.tre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.telephone {
+    width: 20%;
+    text-align: center;
+}
+.stolbik {
+    width: 20%;
+    padding-left: 50px;
+}
+.vel {
+    font-size: 300%;
+    color: red;
+}
+.kl {
+    display: flex;
+    align-items: center;
+}
+.p {
+    font-size: 25px;
+    color: red;
+}
+.crazy {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+.scar {
+    width: 240px;
+    height: 490px;
+    position: absolute;
+    left: 110px;
+    z-index: 1;
+}
+.let {
+    width: 239px;
+    height: 490px;
+}
+.tph {
+    position: relative;
+    width: 40%;
+}
+.extra {
+    width: 40%;
+}
+.f {
+    font-size: 37px;
+}
+.x {
+    font-size: 22px;
+}
+.k {
+    color: red;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto; 
+}
+#five {
+    width: 100%;
+    margin-top: 300px;
+}
+#foue {
+    width: 100%;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    text-align: center;
+}
+.stol {
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 16px;
+}
+.b {
+    margin: 0px 0px;
+}
+.register {
+    width: 68px;
+    height: 29px;
+    margin: 40px auto;
+    padding: 0;
+}
+.starter {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.stol:hover {
+    background: gray;
+}
+#two {
+    height: auto;
+    padding: 200px 0;
+}
+#six {
+    height: auto;
+    padding: 120px 0;
+}
+* {
+    font-family: 'Oswald', sans-serif;
+}
+/* http://demo-fleur.myinsales.ru/ */
